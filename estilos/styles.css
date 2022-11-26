@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;700&family=Roboto:wght@400;500&display=swap");
+@import url("https://fonts.google.com/specimen/Montserrat?preview.text=Oswald&preview.text_type=custom&query=mont");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif;
+}
+
+.Logo {
+  color: #f7752a;
+  padding: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav {
+  font-size: medium;
+  display: flex;
+  gap: 35px;
+  align-items: center;
+  padding-right: 30px;
+}
+
+img {
+  width: 530px;
+  padding-left: 30px;
+}
+.main {
+  display: flex;
+
+  justify-content: space-between;
+  margin-top: 100px;
+
+  margin-right: S00px;
+  text-align: justify;
+  align-items: center;
+  padding-bottom: 100px;
+}
+
+.main > div {
+  justify-content: flex-end;
+  color: rgb(0, 0, 0);
+  font-size: 35px;
+  font-weight: bold;
+  padding-right: 30px;
+}
+
+/* Seccion 2 */
+
+.Funciones {
+  background-color: rgb(224, 217, 207);
+  display: flex;
+
+  justify-content: space-between;
+  margin-top: 100px;
+
+  margin-left: S00px;
+  text-align: justify;
+  align-items: center;
+}
+
+li {
+  margin-left: 50px;
+}
+
+.Funciones > img {
+  padding: 20px;
+  width: 900px;
+}
+
+.Funciones > div {
+  justify-content: flex-start;
+  color: rgb(0, 0, 0);
+  font-size: 35px;
+  font-weight: bold;
+  padding-left: 35px;
+  padding-bottom: 100px;
+}
+
+.titulo-function {
+  color: #f7752a;
+}
+
+/*Seccion-3*/
+.Funciones2 {
+  background-color: rgb(224, 217, 207);
+  display: flex;
+
+  justify-content: space-between;
+
+  margin-right: S00px;
+  text-align: justify;
+  align-items: center;
+  padding-bottom: 100px;
+}
+.Funciones2 > img {
+  width: 900px;
+  padding-right: 10px;
+}
+
+.Funciones2 > div {
+  justify-content: flex-end;
+  color: rgb(0, 0, 0);
+  font-size: 35px;
+  font-weight: bold;
+  padding-right: 35px;
+  padding-left: 30px;
+}
+
+/*Seccion-4*/
+.ResponsiveDesign {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+
+  margin-left: S00px;
+  text-align: justify;
+  align-items: center;
+  padding-bottom: 100px;
+}
+
+.ResponsiveDesign > div {
+  justify-content: flex-start;
+  color: rgb(0, 0, 0);
+  font-size: 35px;
+  font-weight: bold;
+  padding-left: 35px;
+}
+
+/*Seccion-5*/
+.multi {
+  background-color: #e1dad0;
+
+  border-bottom: 1px solid black;
+  display: flex;
+
+  justify-content: space-between;
+
+  margin-left: S00px;
+  text-align: justify;
+  align-items: center;
+  padding-bottom: 100px;
+  margin-top: 100px;
+}
+
+.multi > div {
+  justify-content: flex-end;
+  color: rgb(0, 0, 0);
+  font-size: 35px;
+  font-weight: bold;
+  padding-right: 35px;
+}
+
+.descarga > div {
+  background-image: linear-gradient(to bottom, #e1dad0, #fff);
+  padding: 100px;
+
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
